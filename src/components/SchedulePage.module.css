@@ -1,0 +1,85 @@
+.container {
+	padding: 30px;
+	color: #fff;
+}
+
+.heading {
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+.weekControl {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+
+.grid {
+	display: flex;
+	flex-direction: column-reverse;
+	gap: 30px;
+}
+
+.card {
+	display: flex;
+	gap: 20px;
+	background: #1b1f27;
+	padding: 20px;
+	border-radius: 10px;
+	align-items: flex-start;
+}
+
+.poster {
+	width: 150px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.details {
+	flex: 1;
+}
+
+.sessions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.sessionBtn {
+	background-color: #1ab0d5;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	padding: 8px 14px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background-color 0.2s;
+}
+
+.sessionBtn:hover {
+	background-color: #1494b0;
+}
+
+.sessionBtn span {
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+}
+.weekControl button {
+	background-color: #8b0000;
+	color: white;
+	border: none;
+	padding: 8px 12px;
+	border-radius: 6px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+}
+
+.weekControl button:hover {
+	background-color: #a30000;
+}

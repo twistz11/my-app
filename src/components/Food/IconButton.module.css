@@ -1,0 +1,28 @@
+.button {
+	--size: 50px;
+	min-width: var(--size);
+	height: var(--size);
+	cursor: pointer;
+}
+
+.left {
+	background: url('../../assets/icons/arrow_left.svg') center / 100% 100%
+		no-repeat;
+}
+.left:hover {
+	background: url('../../assets/icons/arrow_left_active.svg') center / 100% 100%
+		no-repeat;
+}
+
+.right {
+	background: url('../../assets/icons/arrow_right.svg') center / 100% 100%
+		no-repeat;
+}
+.right:hover {
+	background: url('../../assets/icons/arrow_right_active.svg') center / 100%
+		100% no-repeat;
+}
+
+.disable {
+	pointer-events: none;
+}

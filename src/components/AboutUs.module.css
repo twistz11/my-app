@@ -1,0 +1,29 @@
+.aboutUs {
+	padding: 40px;
+	color: white;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.section {
+	display: flex;
+	align-items: center;
+	margin-bottom: 60px;
+	gap: 40px;
+}
+
+.section img {
+	width: 300px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.section h2 {
+	color: #ff2e2e;
+	margin-bottom: 10px;
+}
+
+.section p {
+	font-size: 17px;
+	line-height: 1.6;
+}

@@ -1,0 +1,76 @@
+.profileContainer {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #0f111a;
+	color: white;
+	border-radius: 20px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.profileTitle {
+	font-size: 28px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.profileField {
+	margin-bottom: 30px;
+}
+
+.profileInput {
+	display: block;
+	width: 100%;
+	padding: 12px;
+	margin-top: 8px;
+	border-radius: 10px;
+	border: 1px solid #444;
+	background-color: #1e1e1e;
+	color: white;
+	font-size: 16px;
+}
+
+.profileInput::placeholder {
+	color: #bbb;
+}
+
+.profileButton {
+	margin-top: 10px;
+	padding: 12px 20px;
+	background: #c60032;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	width: 100%;
+	font-weight: bold;
+	transition: background 0.3s;
+}
+
+.profileButton:hover {
+	background: #a00028;
+}
+
+.logoutButton {
+	padding: 12px 20px;
+	background: #333;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	width: 100%;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.logoutButton:hover {
+	background: #555;
+}
+
+.profileMessage {
+	margin-top: 15px;
+	color: #ffc107;
+	font-weight: bold;
+	text-align: center;
+}
