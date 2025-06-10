@@ -1,7 +1,8 @@
-import React, { FC } from 'react'
+import React, { FC, useEffect, useContext } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { observer } from 'mobx-react-lite'
 
+import { Context } from './index'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
@@ -18,6 +19,14 @@ import AboutUs from './components/AboutUs'
 import styles from './App.module.css'
 
 const App: FC = observer(() => {
+	const { store } = useContext(Context)
+
+	useEffect(() => {
+		if (localStorage.getItem('token')) {
+			store.checkAuth()
+		}
+	}, [])
+
 	return (
 		<div className={styles.app}>
 			<Navbar />
